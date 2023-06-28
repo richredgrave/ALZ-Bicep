@@ -3,16 +3,16 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parTopLevelManagementGroupPrefix": {
-      "value": "alz"
+      "value": "contoso"
     },
     "parTopLevelManagementGroupSuffix": {
       "value": ""
     },
     "parTopLevelManagementGroupDisplayName": {
-      "value": "Azure Landing Zones"
+      "value": "Contoso"
     },
     "parTopLevelManagementGroupParentId": {
-      "value": ""
+      "value": "45eef4c6-6415-40a9-b3e3-4293bccf67ad"
     },
     "parLandingZoneMgAlzDefaultsEnable": {
       "value": true
