@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parTopLevelManagementGroupPrefix": {
-      "value": "alz"
+      "value": "contoso"
     },
     "parTopLevelManagementGroupSuffix": {
       "value": ""
@@ -15,10 +15,12 @@
       "value": []
     },
     "parPlatformManagementMgSubs": {
-      "value": []
+      "value": ["62bea5b0-2517-4593-986e-eea014fc22e7"]
     },
     "parPlatformConnectivityMgSubs": {
-      "value": []
+      "value": [
+        "799ad730-4c34-4482-8e74-5f8665ab19c2"
+      ]
     },
     "parPlatformIdentityMgSubs": {
       "value": []
@@ -30,7 +32,7 @@
       "value": []
     },
     "parLandingZonesOnlineMgSubs": {
-      "value": []
+      "value": ["3c5b486d-9fcd-421c-80a6-e3586db457cf"]
     },
     "parLandingZonesConfidentialCorpMgSubs": {
       "value": []

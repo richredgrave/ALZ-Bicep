@@ -3,37 +3,37 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parTopLevelManagementGroupPrefix": {
-      "value": "alz"
+      "value": "contoso"
     },
     "parTopLevelManagementGroupSuffix": {
       "value": ""
     },
     "parLogAnalyticsWorkSpaceAndAutomationAccountLocation": {
-      "value": "eastus"
+      "value": "uksouth"
     },
     "parLogAnalyticsWorkspaceResourceId": {
-      "value": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/alz-logging/providers/Microsoft.OperationalInsights/workspaces/alz-log-analytics"
+      "value": "/subscriptions/62bea5b0-2517-4593-986e-eea014fc22e7/resourceGroups/alz-logging-01-rg/providers/Microsoft.OperationalInsights/workspaces/alz-log-analytics"
     },
     "parLogAnalyticsWorkspaceLogRetentionInDays": {
-      "value": "365"
+      "value": "31"
     },
     "parAutomationAccountName": {
       "value": "alz-automation-account"
     },
     "parMsDefenderForCloudEmailSecurityContact": {
-      "value": "security_contact@replace_me.com"
+      "value": "rredgrave@gmail.com"
     },
     "parDdosProtectionPlanId": {
-      "value": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/rg-alz-hub-networking-001/providers/Microsoft.Network/ddosProtectionPlans/alz-ddos-plan"
+      "value": ""
     },
     "parPrivateDnsResourceGroupId": {
-      "value": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/rg-alz-hub-networking-001"
+      "value": "/subscriptions/799ad730-4c34-4482-8e74-5f8665ab19c2/resourceGroups/rg-contoso-networking-01"
     },
     "parPrivateDnsZonesNamesToAuditInCorp": {
       "value": []
     },
     "parDisableAlzDefaultPolicies": {
-      "value": false
+      "value": true
     },
     "parVmBackupExclusionTagName": {
       "value": ""

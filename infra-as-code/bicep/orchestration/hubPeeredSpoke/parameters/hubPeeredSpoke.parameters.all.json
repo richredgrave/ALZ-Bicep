@@ -6,13 +6,13 @@
       "value": "westeurope"
     },
     "parTopLevelManagementGroupPrefix": {
-      "value": "alz"
+      "value": "contoso"
     },
     "parTopLevelManagementGroupSuffix": {
       "value": ""
     },
     "parPeeredVnetSubscriptionId": {
-      "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+      "value": "3c5b486d-9fcd-421c-80a6-e3586db457cf"
     },
     "parPeeredVnetSubscriptionMgPlacement": {
       "value": "alz-platform-connectivity"
@@ -21,7 +21,7 @@
       "value": ""
     },
     "parSpokeNetworkName": {
-      "value": "vnet-spoke"
+      "value": "vnet-spoke-01"
     },
     "parSpokeNetworkAddressPrefix": {
       "value": "10.202.0.0/24"
@@ -42,7 +42,7 @@
       "value": "rtb-spoke-to-hub"
     },
     "parHubVirtualNetworkId": {
-      "value": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/alz-westeurope-hub-networking/providers/Microsoft.Network/virtualNetworks/alz-hub-westeurope"
+      "value": "/subscriptions/799ad730-4c34-4482-8e74-5f8665ab19c2/resourceGroups/rg-contoso-networking-01/providers/Microsoft.Network/virtualNetworks/alz-hub-uksouth"
     },
     "parAllowSpokeForwardedTraffic": {
       "value": false

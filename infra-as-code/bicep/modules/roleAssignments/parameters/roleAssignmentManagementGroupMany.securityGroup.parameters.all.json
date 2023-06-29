@@ -4,18 +4,19 @@
   "parameters": {
     "parManagementGroupIds": {
       "value": [
-        "alz-platform-connectivity",
-        "alz-platform-identity"
+        "contoso-landingzones",
+        "contoso-platform-connectivity"
       ]
     },
     "parRoleDefinitionId": {
-      "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+      "value": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+   
     },
     "parAssigneePrincipalType": {
       "value": "Group"
     },
     "parAssigneeObjectId": {
-      "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+      "value": "c321a1f2-c5bc-487e-ab1e-3ee33b7ff619"
     },
     "parTelemetryOptOut": {
       "value": false
