@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "parTopLevelManagementGroupPrefix": {
-      "value": "alz"
+      "value": "contoso"
     },
     "parTopLevelManagementGroupSuffix": {
       "value": ""
@@ -18,7 +18,7 @@
       "value": false
     },
     "parLogAnalyticsWorkspaceResourceId": {
-      "value": "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourcegroups/alz-logging/providers/microsoft.operationalinsights/workspaces/alz-log-analytics"
+      "value": "/subscriptions/62bea5b0-2517-4593-986e-eea014fc22e7/resourceGroups/alz-logging-01-rg/providers/Microsoft.OperationalInsights/workspaces/alz-log-analytics"
     },
     "parLandingZoneMgChildren": {
       "value": []

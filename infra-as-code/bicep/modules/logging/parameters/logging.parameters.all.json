@@ -6,13 +6,13 @@
       "value": "alz-log-analytics"
     },
     "parLogAnalyticsWorkspaceLocation": {
-      "value": "eastus"
+      "value": "uksouth"
     },
     "parLogAnalyticsWorkspaceSkuName": {
       "value": "PerGB2018"
     },
     "parLogAnalyticsWorkspaceLogRetentionInDays": {
-      "value": 365
+      "value": 60
     },
     "parLogAnalyticsWorkspaceSolutions": {
       "value": [
@@ -35,14 +35,15 @@
       "value": "alz-automation-account"
     },
     "parAutomationAccountLocation": {
-      "value": "eastus2"
+      "value": "uksouth"
     },
     "parAutomationAccountUseManagedIdentity": {
       "value": true
     },
     "parTags": {
       "value": {
-        "Environment": "Live"
+        "Environment": "Live",
+        "DeployedBy": "Azure Bicep"
       }
     },
     "parTelemetryOptOut": {
